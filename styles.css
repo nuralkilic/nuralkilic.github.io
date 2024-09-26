@@ -43,6 +43,7 @@
     text-align: center;
 }
 
+/* İHTİSAS ALANLARIMIZ başlığı için stil */
 .specialties h2 {
     color: #000080;
     font-size: 14px; /* Başlığı 14px yapar */
@@ -68,13 +69,19 @@
 
 /* Sütunlardaki yazıların boyutu */
 .specialty-item p {
-    font-size: 11px; /* Sütunlardaki yazıları 11px yapar */
+    font-size: 12px; /* Sütunlardaki yazıları 12px yapar */
 }
 
 /* Müracaat Bölümü */
 .application {
     /* Var olan stiller */
 }
+/* MÜRÂCAAT başlığı için stil */
+.application h2 {
+    text-transform: uppercase; /* Büyük harf yapar */
+    font-size: 14px; /* Yazı boyutunu 14px yapar */
+    color: #000080; /* Başlık rengini belirler, isteğe bağlı */
+
 
 .contact-info h2 {
     /* Var olan stiller */
