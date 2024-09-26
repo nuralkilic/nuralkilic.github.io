@@ -28,11 +28,11 @@
             text-align: left;
         }
 
-      <!-- Header -->
-<header class="header">
-    <img src="images/header.png" alt="Header Image">
-</header>
-
+        /* Header için */
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
 
         .header img {
             width: 100%;
@@ -277,22 +277,22 @@
             </div>
         </div>
     </section>
-<!-- Diğer Çalışma Alanlarımız Bölümü -->
-<section class="gallery">
-    <h2>Diğer Çalışma Alanlarımız</h2>
-    <div class="gallery-container">
-        <img src="images/1bilişim.png" alt="Çalışma Alanı 1">
-        <img src="images/2imar.png" alt="Çalışma Alanı 2">
-        <img src="images/3iş.png" alt="Çalışma Alanı 3">
-        <img src="images/4kamuihale.png" alt="Çalışma Alanı 4">
-        <img src="images/5ekonomiceza.png" alt="Çalışma Alanı 5">
-        <img src="images/6çocuk.png" alt="Çalışma Alanı 6">
-        <img src="images/7gayrimenkul.png" alt="Çalışma Alanı 7">
-        <img src="images/8tazminat.png" alt="Çalışma Alanı 8">
-        <img src="images/9sağlık.png" alt="Çalışma Alanı 9">
-    </div>
-</section>
 
+    <!-- Diğer Çalışma Alanlarımız Bölümü -->
+    <section class="gallery">
+        <h2>Diğer Çalışma Alanlarımız</h2>
+        <div class="gallery-container">
+            <img src="images/1bilişim.png" alt="Çalışma Alanı 1">
+            <img src="images/2imar.png" alt="Çalışma Alanı 2">
+            <img src="images/3iş.png" alt="Çalışma Alanı 3">
+            <img src="images/4kamuihale.png" alt="Çalışma Alanı 4">
+            <img src="images/5ekonomiceza.png" alt="Çalışma Alanı 5">
+            <img src="images/6çocuk.png" alt="Çalışma Alanı 6">
+            <img src="images/7gayrimenkul.png" alt="Çalışma Alanı 7">
+            <img src="images/8tazminat.png" alt="Çalışma Alanı 8">
+            <img src="images/9sağlık.png" alt="Çalışma Alanı 9">
+        </div>
+    </section>
 
   <!-- Müracaat Bölümü -->
 <section class="application">
