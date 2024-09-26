@@ -32,7 +32,7 @@
 /* HAKKIMIZDA başlığı için stil */
 .about h2 {
     text-transform: uppercase; /* Büyük harf yapar */
-    font-size: 12px; /* Yazı boyutunu 12px yapar */
+    font-size: 14px; /* Yazı boyutunu 14px yapar */
     color: #000080; /* Başlık rengini belirler, isteğe bağlı */
 }
 
@@ -45,7 +45,7 @@
 
 .specialties h2 {
     color: #000080;
-    font-size: 12px; /* Başlığı 12px yapar */
+    font-size: 14px; /* Başlığı 14px yapar */
     text-transform: uppercase; /* Başlığı büyük harf yapar */
 }
 
@@ -68,7 +68,7 @@
 
 /* Sütunlardaki yazıların boyutu */
 .specialty-item p {
-    font-size: 10px; /* Sütunlardaki yazıları 10px yapar */
+    font-size: 11px; /* Sütunlardaki yazıları 11px yapar */
 }
 
 /* Müracaat Bölümü */
