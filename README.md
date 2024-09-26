@@ -30,10 +30,11 @@
             text-align: left;
         }
 
-       <!-- Header -->
+<!-- Header -->
 <header class="header">
-    <img src="assets/images/header.png" alt="Header Görseli">
+    <img src="assets/images/banner.png" alt="Banner Görseli">
 </header>
+
 
 
         /* HAKKIMIZDA bölümü */
