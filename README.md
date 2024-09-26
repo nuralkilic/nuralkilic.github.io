@@ -28,11 +28,11 @@
             text-align: left;
         }
 
-        /* Header için */
-        .header {
-            text-align: center;
-            margin-top: 20px;
-        }
+      <!-- Header -->
+<header class="header">
+    <img src="images/header.png" alt="Header Image">
+</header>
+
 
         .header img {
             width: 100%;
