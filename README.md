@@ -339,22 +339,25 @@
 
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
-        </div>
-        <div class="contact-details">
-            <p> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA </p>
-            <p>Telefon: +90 322 234 37 85 </p>
-            <p>E-posta: nuralkilic@adana.av.tr </p>
-        </div>
-        <div class="copyright">
-            TELİF HAKKI © 2024 AVUKAT NURAL KILIÇ - TÜM HAKLARI SAKLIDIR.
-        </div>
-    </footer>
+<footer class="footer">
+    <div class="social-media">
+        <a href="https://x.com/nuralnun" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkedin.com/in/nuralkılıç" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+    <div class="contact-details">
+        <p>Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
+        <p>Telefon: +90 322 234 37 85</p>
+        <p>E-posta: nuralkilic@adana.av.tr</p>
+    </div>
+    <div class="copyright">
+        TELİF HAKKI © 2024 AVUKAT NURAL KILIÇ - TÜM HAKLARI SAKLIDIR.
+    </div>
+</footer>
+
 
     <script>
         function toggleForm() {
