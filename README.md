@@ -69,7 +69,7 @@
 
         .specialties h2 {
             color: #000080;
-            font-size: var(--font-size-small);
+            font-size: var(--font-size-medium);
         }
 
         .specialties-container {
@@ -294,37 +294,40 @@
         </div>
     </section>
 
-   <!-- Müracaat Bölümü -->
-<section class="application">
-    <div class="contact-info">
-        <h2>Müracaat</h2>
-        <p>Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
-        <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
-        <p><strong>Av. Nural Kılıç</strong></p>
-        <p><strong>Adres:</strong> TOROS MAHALLESİ 78140 SOKAK KAPI NO.: 2/A BÜRO NO.: 219X ÇUKUROVA/ADANA </p>
-        <p><strong>E-posta:</strong> nuralkilic@adana.av.tr </p>
-        <div class="calendar">
-            <h3>Mesai Saatleri:</h3>
-            <p>Pazartesi-Salı: 07:00-19:00</p>
-            <p>Çarşamba-Perşembe: 07:00-17:00</p>
-            <p>Cuma: 07:00-11:00</p>
-        </div>
-        <button class="show-form-button" onclick="toggleForm()">Randevu Talebi</button>
-        <div class="appointment-form" id="appointmentForm">
-            <h2>Randevu Talebi Formu</h2>
-            <form action="mailto:example@example.com" method="post" enctype="text/plain">
-                <label for="name">Adınız:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">E-posta:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mesaj:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Gönder</button>
-            </form>
-        </div>
-    </div>
-    <div class="
+    <!-- Müracaat Bölümü -->
+    <section class="application">
+        <div class="contact-info">
+            <h2>Müracaat</h2>
+            <p>Telefon ve e-posta yoluyla ulaşabilir yahut büromuzda veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
 
+            <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
+            <p><strong>Av. Nural Kılıç</strong></p>
+            <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA </p>
+            <p><strong>E-posta:</strong> nuralkilic@adana.av.tr </p>
+            <div class="calendar">
+                <h3>Mesai Saatleri:</h3>
+                <p>Pazartesi-Salı: 07:00-19:00</p>
+                <p>Çarşamba-Perşembe: 07:00-17:00</p>
+                <p>Cuma: 07:00-11:00</p>
+            </div>
+            <button class="show-form-button" onclick="toggleForm()">Randevu Talebi</button>
+            <div class="appointment-form" id="appointmentForm">
+                <h2>Randevu Talebi Formu</h2>
+                <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                    <label for="name">Adınız:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mesaj:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Gönder</button>
+                </form>
+            </div>
+        </div>
+        <div class="map">
+            <!-- Harita yerleştirilecek alan -->
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -335,7 +338,7 @@
             <a href="#">Instagram</a>
         </div>
         <div class="contact-details">
-            <p> TOROS MAHALLESİ 78140 SOKAK KAPI NO.:2/A BÜRO:219X ÇUKUROVA/ADANA </p>
+            <p> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA </p>
             <p>Telefon: +90 322 234 37 85 </p>
             <p>E-posta: nuralkilic@adana.av.tr </p>
         </div>
