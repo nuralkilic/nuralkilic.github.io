@@ -9,6 +9,7 @@
     height: auto; /* Görselin oranlarını korur */
     max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
 }
+
 /* HAKKIMIZDA bölümü */
 .about {
     background-color: #C3B7EA;
@@ -105,14 +106,14 @@
     margin-bottom: 10px;
 }
 
-.social-media .social-icon {
-    color: #C3B7EA; /* İkon rengi */
+.social-media a {
+    color: #C3B7EA; /* Link rengi */
+    text-decoration: none; /* Alt çizgi olmadan */
     margin: 0 10px;
-    text-decoration: none;
-    font-size: 24px; /* İkon boyutu */
+    font-size: 16px; /* Font boyutu */
 }
 
-.social-media .social-icon:hover {
+.social-media a:hover {
     color: #c3b7ea; /* Hover efekti rengi */
 }
 
