@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Avukat Nural Kılıç</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Buraya ekleyin -->
     <style>
         :root {
             --font-size-large: 14px;
@@ -18,6 +19,9 @@
             color: #000080; /* Metin rengi */
             font-size: var(--font-size-small); /* Varsayılan yazı boyutu */
         }
+    </style>
+</head>
+
 
         /* İnce bar ve başlık */
         .top-bar {
