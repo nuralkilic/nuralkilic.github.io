@@ -300,7 +300,7 @@
     <div class="contact-info">
         <h2>Müracaat</h2>
         <p class="contact-text">Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
-        <p class="contact-text">Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
+        <p class="contact-text">Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ve müvekkillerimiz ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
         <p><strong>Av. Nural Kılıç</strong></p>
         <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
         <p><strong>E-posta:</strong> nuralkilic@adana.av.tr</p>
