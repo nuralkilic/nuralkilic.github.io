@@ -4,7 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Avukat Nural Kılıç</title>
     <link rel="stylesheet" href="styles.css">
-</head>
 
     <style>
         :root {
