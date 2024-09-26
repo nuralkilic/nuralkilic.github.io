@@ -2,9 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>A v u k a t   N u r a l   K ı l ı ç</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <title>Avukat Nural Kılıç</title>
     <style>
         :root {
             --font-size-large: 14px;
@@ -30,12 +28,17 @@
             text-align: left;
         }
 
-<!-- Header -->
-<header class="header">
-    <img src="assets/images/banner.png" alt="Banner Görseli">
-</header>
+        /* Header için */
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
 
-
+        .header img {
+            width: 100%;
+            height: auto; /* Görselin oranlarını korur */
+            max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
+        }
 
         /* HAKKIMIZDA bölümü */
         .about {
@@ -58,33 +61,35 @@
         }
 
         /* İHTİSAS ALANLARIMIZ bölümü */
-        .specialties {
-            background-color: #C3B7EA;
-            padding: 50px;
-            text-align: center;
-        }
+.specialties {
+    background-color: #C3B7EA;
+    padding: 50px;
+    text-align: center;
+}
 
-        .specialties h2 {
-            color: #000080;
-            font-size: var(--font-size-medium);
-        }
+.specialties h2 {
+    color: #000080;
+    font-size: 12px; /* Başlığı 12px yapar */
+    text-transform: uppercase; /* Başlığı büyük harf yapar */
+}
 
-        .specialties-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
+.specialties-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
-        .specialty-item {
-            text-align: center;
-        }
+.specialty-item {
+    text-align: center;
+}
 
-        .specialty-item img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
+.specialty-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
 
         /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
         .gallery {
@@ -251,7 +256,7 @@
         <img src="images/hakkımızda.jpg" alt="Hakkımızda Görseli">
         <div class="about-text">
             <h2>Hakkımızda</h2>
-            <p>Avukat Nural Kılıç ilk ve orta öğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun oldu. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başladı. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulundu. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerindendir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
+            <p>Avukat Nural Kılıç ilk ve orta öğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerinden biridir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
             
         </div>
     </section>
@@ -297,8 +302,8 @@
     <div class="contact-info">
         <h2>Müracaat</h2>
         <p class="contact-text">Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
-         <p class="contact-text">  Mesai saatlerimiz aşağıdaki gibidir.</p>
-        <p class="contact-text"> Vakti uymayacak danışanlarımız ve müvekkillerimiz ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
+        <p class="contact-text">Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
+        <p><strong>Av. Nural Kılıç</strong></p>
         <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
         <p><strong>E-posta:</strong> nuralkilic@adana.av.tr</p>
         <div class="calendar">
@@ -342,7 +347,7 @@
         <a href="https://linkedin.com/in/nuralkılıç" target="_blank">LinkedIn: linkedin.com/in/nuralkılıç</a>
     </div>
     <div class="contact-details">
-        <p>TOROS MAHALLESİ 78140 SOKAK KAPI NO.:2/A BÜRO:219X ÇUKUROVA/ADANA</p>
+        <p>Toros Mahallesi 78140 Sokak Kapı No.:2/A Büro:219X Çukurova/ADANA</p>
         <p>Telefon: +90 322 234 37 85</p>
         <p>E-posta: nuralkilic@adana.av.tr</p>
     </div>
