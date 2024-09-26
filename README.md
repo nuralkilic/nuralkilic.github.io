@@ -341,7 +341,6 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="social-media">
-        <a href="https://x.com/nuralnun" target="_blank">Twitter: x.com/nuralnun</a><br>
         <a href="https://linkedin.com/in/nuralkılıç" target="_blank">LinkedIn: linkedin.com/in/nuralkılıç</a>
     </div>
     <div class="contact-details">
