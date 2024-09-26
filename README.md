@@ -294,13 +294,12 @@
         </div>
     </section>
 
-   <!-- Müracaat Bölümü -->
+  <!-- Müracaat Bölümü -->
 <section class="application">
     <div class="contact-info">
         <h2>Müracaat</h2>
-        <p>Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
-
-        <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
+        <p class="contact-text">Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
+        <p class="contact-text">Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
         <p><strong>Av. Nural Kılıç</strong></p>
         <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
         <p><strong>E-posta:</strong> nuralkilic@adana.av.tr</p>
@@ -326,8 +325,8 @@
     </div>
     <div class="map">
         <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.087155019032!2d35.29463181563986!3d37.01617127977621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c4d7c8e62cb0f7%3A0x2f87c4253d8c5a8b!2sToros%20Mah.%2078140%20Sk.%20Kap%C4%B1%20No.:%202/A%20B%C3%BCro%20No.:%20219X%2C%20%C3%87ukurova%2FAdana!5e0!3m2!1str!2str!4v1696344607710!5m2!1str!2str" 
-            width="600" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.5227986047635!2d35.297360975007344!3d37.04502295386203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1528895e17a584d9%3A0xca5c5d047e21507c!2sX%20Ofis!5e0!3m2!1str!2str!4v1727352591115!5m2!1str!2str" 
+            width="100%" 
             height="450" 
             style="border:0;" 
             allowfullscreen="" 
@@ -335,6 +334,7 @@
         </iframe>
     </div>
 </section>
+
 
 
 
