@@ -246,12 +246,12 @@
 
     <!-- Header -->
     <div class="header">
-        <img src="images/header.jpg" alt="Header Görseli">
+        <img src="images/header.png" alt="Header Görseli">
     </div>
 
     <!-- Hakkımızda Bölümü -->
     <section class="about">
-        <img src="images/about.jpg" alt="Hakkımızda Görseli">
+        <img src="images/hakkımızda.jpg" alt="Hakkımızda Görseli">
         <div class="about-text">
             <h2>Hakkımızda</h2>
             <p>Avukat Nural Kılıç ilk ve ortaöğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerinden biridir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
@@ -264,15 +264,15 @@
         <h2>İhtisas Alanlarımız</h2>
         <div class="specialties-container">
             <div class="specialty-item">
-                <img src="images/specialty1.jpg" alt="İhtisas Alanı 1">
+                <img src="idare.png" alt="İhtisas Alanı 1">
                 <p>İdarî faaliyetler sebebiyle maruz kaldığınız haksızlıkların durdurulması, iptali ve bu bağlamda uğradığınız zararların tazmini için gerekli işleri, idârî başvurularınızın ilgili İdâre'ye (kamu kurum ve kuruluşları) yöneltilmesinden, iptal davalarına ve tam yargı davalarına kadar titizlikle yürütüyoruz.</p>
             </div>
             <div class="specialty-item">
-                <img src="images/specialty2.jpg" alt="İhtisas Alanı 2">
+                <img src="bireyselbaşvuru.png" alt="İhtisas Alanı 2">
                 <p>Anayasa Mahkemesi, Kamu Denetçiliği Kurumu, TİHEK ve Avrupa İnsan Hakları Mahkemesi başta olmak üzere uluslararası yargı organları önünde temel hak ve özgürlüklerinize ilişkin bireysel başvurularınızı her gün daha çok ihtisaslaşarak takip ediyoruz.</p>
             </div>
             <div class="specialty-item">
-                <img src="images/specialty3.jpg" alt="İhtisas Alanı 3">
+                <img src="önleme.png" alt="İhtisas Alanı 3">
                 <p>Uyuşmazlıkların en kıymetli ve geri getirilemez eşyadan olan vakit başta olmak üzere nelere mâlolabileceğinin şuuruyla, haksızlar ve/veya zarar doğmadan yahut derinleşmeden önce "önleme" ilkesinin uygulanmasına çabalıyor, bunun için vazedilmiş hukukî prosedürleri işletiyoruz.</p>
             </div>
         </div>
@@ -282,15 +282,15 @@
     <section class="gallery">
         <h2>Diğer Çalışma Alanlarımız</h2>
         <div class="gallery-container">
-            <img src="images/galeri1.jpg" alt="Çalışma Alanı 1">
-            <img src="images/galeri2.jpg" alt="Çalışma Alanı 2">
-            <img src="images/galeri3.jpg" alt="Çalışma Alanı 3">
-            <img src="images/galeri4.jpg" alt="Çalışma Alanı 4">
-            <img src="images/galeri5.jpg" alt="Çalışma Alanı 5">
-            <img src="images/galeri6.jpg" alt="Çalışma Alanı 6">
-            <img src="images/galeri7.jpg" alt="Çalışma Alanı 7">
-            <img src="images/galeri8.jpg" alt="Çalışma Alanı 8">
-            <img src="images/galeri9.jpg" alt="Çalışma Alanı 9">
+            <img src="images/1bilişim.png" alt="Çalışma Alanı 1">
+            <img src="images/2imar.png" alt="Çalışma Alanı 2">
+            <img src="images/3iş.png" alt="Çalışma Alanı 3">
+            <img src="images/4kamuihale.png" alt="Çalışma Alanı 4">
+            <img src="images/5ekonomiceza.png" alt="Çalışma Alanı 5">
+            <img src="images/6çocuk.png" alt="Çalışma Alanı 6">
+            <img src="images/7gayrimenkul.png" alt="Çalışma Alanı 7">
+            <img src="images/8tazminat.png" alt="Çalışma Alanı 8">
+            <img src="images/9sağlık.png" alt="Çalışma Alanı 9">
         </div>
     </section>
 
