@@ -43,13 +43,6 @@
     text-align: center;
 }
 
-/* İHTİSAS ALANLARIMIZ bölümü */
-.specialties {
-    background-color: #C3B7EA;
-    padding: 50px;
-    text-align: center;
-}
-
 /* İHTİSAS ALANLARIMIZ başlığı için stil */
 .specialties h2 {
     color: #000080;
@@ -57,10 +50,11 @@
     text-transform: uppercase; /* Başlığı büyük harf yapar */
 }
 
+/* Görsellerin boyutlarını artırmak için CSS */
 .specialties-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 20px; /* Görseller arasındaki boşluk */
 }
 
 .specialty-item {
@@ -68,20 +62,10 @@
 }
 
 .specialty-item img {
-    width: 120px; /* Görsellerin genişliğini artırır */
-    height: 120px; /* Görsellerin yüksekliğini artırır */
-    border-radius: 50%; /* Görselleri daire şeklinde yapar */
+    width: 150px; /* Görsel genişliğini artırır */
+    height: 150px; /* Görsel yüksekliğini artırır */
+    border-radius: 50%; /* Daire şeklinde görseller */
     margin-bottom: 10px;
-}
-
-/* Sütunlardaki yazıların boyutu */
-.specialty-item p {
-    font-size: 12px; /* Sütunlardaki yazıları 12px yapar */
-}
-
-/* Müracaat Bölümü */
-.application {
-    /* Var olan stiller */
 }
 
 /* Diğer Çalışma Alanlarımız Bölümü */
@@ -111,6 +95,11 @@
     max-height: 150px; /* İsteğe bağlı, maksimum yükseklik ayarı */
     object-fit: cover; /* Görsellerin kapsayıcıya uymasını sağlar */
     border-radius: 10px; /* Kenarları yuvarlatır */
+}
+
+/* Müracaat Bölümü */
+.application {
+    /* Var olan stiller */
 }
 
 /* MÜRÂCAAT başlığı için stil */
