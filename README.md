@@ -278,21 +278,22 @@
         </div>
     </section>
 
-    <!-- Diğer Çalışma Alanlarımız Bölümü -->
-    <section class="gallery">
-        <h2>Diğer Çalışma Alanlarımız</h2>
-        <div class="gallery-container">
-            <img src="images/1bilisim.png" alt="Çalışma Alanı 1">
-            <img src="images/2imar.png" alt="Çalışma Alanı 2">
-            <img src="images/3is.png" alt="Çalışma Alanı 3">
-            <img src="images/4kamuihale.png" alt="Çalışma Alanı 4">
-            <img src="images/5ekonomiceza.png" alt="Çalışma Alanı 5">
-            <img src="images/6cocuk.png" alt="Çalışma Alanı 6">
-            <img src="images/7gayrimenkul.png" alt="Çalışma Alanı 7">
-            <img src="images/8tazminat.png" alt="Çalışma Alanı 8">
-            <img src="images/9saglik.png" alt="Çalışma Alanı 9">
-        </div>
-    </section>
+<!-- Diğer Çalışma Alanlarımız Bölümü -->
+<section class="gallery">
+    <h2>Diğer Çalışma Alanlarımız</h2>
+    <div class="gallery-container">
+        <img src="images/1bilisim.png" alt="Bilişim Hukuku">
+        <img src="images/2imar.png" alt="İmar Hukuku">
+        <img src="images/3is.png" alt="İş Hukuku">
+        <img src="images/4kamuihale.png" alt="Kamu İhale Hukuku">
+        <img src="images/5ekonomiceza.png" alt="Ekonomik Ceza Hukuku">
+        <img src="images/6cocuk.png" alt="Çocuk Hukuku">
+        <img src="images/7gayrimenkul.png" alt="Gayrimenkul Hukuku">
+        <img src="images/8tazminat.png" alt="Tazminat Hukuku">
+        <img src="images/9saglik.png" alt="Sağlık Hukuku">
+    </div>
+</section>
+
 
   <!-- Müracaat Bölümü -->
 <section class="application">
