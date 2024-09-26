@@ -40,6 +40,12 @@
             max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
         }
 
+        <!-- Header -->
+<div class="header">
+    <img src="images/header.png" alt="Header Görseli">
+</div>
+
+
         /* HAKKIMIZDA bölümü */
         .about {
             background-color: #C3B7EA;
