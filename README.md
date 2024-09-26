@@ -338,9 +338,9 @@
             <a href="#">Instagram</a>
         </div>
         <div class="contact-details">
-            <p>İstanbul, Türkiye</p>
-            <p>Telefon: (123) 456-7890</p>
-            <p>E-posta: example@example.com</p>
+            <p> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA </p>
+            <p>Telefon: +90 322 234 37 85 </p>
+            <p>E-posta: nuralkilic@adana.av.tr </p>
         </div>
         <div class="copyright">
             TELİF HAKKI © 2024 AVUKAT NURAL KILIÇ - TÜM HAKLARI SAKLIDIR.
