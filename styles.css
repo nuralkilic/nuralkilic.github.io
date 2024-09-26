@@ -9,6 +9,31 @@
     height: auto; /* Görselin oranlarını korur */
     max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
 }
+/* HAKKIMIZDA bölümü */
+.about {
+    background-color: #C3B7EA;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.about-text {
+    color: #000080;
+    font-size: var(--font-size-medium);
+    width: 45%;
+}
+
+/* HAKKIMIZDA başlığı için stil */
+.about h2 {
+    text-transform: uppercase; /* Büyük harf yapar */
+    font-size: 12px; /* Yazı boyutunu 12px yapar */
+    color: #000080; /* Başlık rengini belirler, isteğe bağlı */
+}
 
 /* Footer CSS */
 .footer {
