@@ -117,7 +117,7 @@
         /* MÜRÂCAAT Bölümü */
         .application {
             background-color: #C3B7EA;
-            padding: 50px;
+            padding: 75px;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
@@ -254,7 +254,7 @@
         <img src="images/hakkımızda.jpg" alt="Hakkımızda Görseli">
         <div class="about-text">
             <h2>Hakkımızda</h2>
-            <p>Avukat Nural Kılıç ilk ve ortaöğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerinden biridir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
+            <p>Avukat Nural Kılıç ilk ve orta öğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerinden biridir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
             
         </div>
     </section>
@@ -282,15 +282,15 @@
     <section class="gallery">
         <h2>Diğer Çalışma Alanlarımız</h2>
         <div class="gallery-container">
-            <img src="images/1bilişim.png" alt="Çalışma Alanı 1">
+            <img src="images/1bilisim.png" alt="Çalışma Alanı 1">
             <img src="images/2imar.png" alt="Çalışma Alanı 2">
-            <img src="images/3iş.png" alt="Çalışma Alanı 3">
+            <img src="images/3is.png" alt="Çalışma Alanı 3">
             <img src="images/4kamuihale.png" alt="Çalışma Alanı 4">
             <img src="images/5ekonomiceza.png" alt="Çalışma Alanı 5">
-            <img src="images/6çocuk.png" alt="Çalışma Alanı 6">
+            <img src="images/6cocuk.png" alt="Çalışma Alanı 6">
             <img src="images/7gayrimenkul.png" alt="Çalışma Alanı 7">
             <img src="images/8tazminat.png" alt="Çalışma Alanı 8">
-            <img src="images/9sağlık.png" alt="Çalışma Alanı 9">
+            <img src="images/9saglik.png" alt="Çalışma Alanı 9">
         </div>
     </section>
 
@@ -338,18 +338,14 @@
 
 
 
-    <!-- Footer -->
+ <!-- Footer -->
 <footer class="footer">
     <div class="social-media">
-        <a href="https://x.com/nuralnun" target="_blank" class="social-icon">
-            <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://linkedin.com/in/nuralkılıç" target="_blank" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-        </a>
+        <a href="https://x.com/nuralnun" target="_blank">Twitter: x.com/nuralnun</a><br>
+        <a href="https://linkedin.com/in/nuralkılıç" target="_blank">LinkedIn: linkedin.com/in/nuralkılıç</a>
     </div>
     <div class="contact-details">
-        <p>Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
+        <p>Toros Mahallesi 78140 Sokak Kapı No.:2/A Büro:219X Çukurova/ADANA</p>
         <p>Telefon: +90 322 234 37 85</p>
         <p>E-posta: nuralkilic@adana.av.tr</p>
     </div>
