@@ -61,33 +61,37 @@
         }
 
         /* İHTİSAS ALANLARIMIZ bölümü */
-        .specialties {
-            background-color: #C3B7EA;
-            padding: 50px;
-            text-align: center;
-        }
+.specialties {
+    background-color: #C3B7EA;
+    padding: 50px;
+    text-align: center;
+}
 
-        .specialties h2 {
-            color: #000080;
-            font-size: var(--font-size-small);
-        }
+.specialties h2 {
+    color: #000080;
+    font-size: var(--font-size-small); /* Font boyutunu küçült */
+}
 
-        .specialties-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
+.specialties-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
-        .specialty-item {
-            text-align: center;
-        }
+.specialty-item {
+    text-align: center;
+}
 
-        .specialty-item img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
+.specialty-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.specialty-item p {
+    font-size: var(--font-size-xsmall); /* Font boyutunu küçült */
+}
 
         /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
         .gallery {
