@@ -1,18 +1,4 @@
 
-## Tasarım Özellikleri
-
-- **Font**: Garamond
-- **Font Boyutları**: 14px (en büyük), 12px, 10px, 8px, 7px
-- **Renkler**: 
-  - Lavender: #C3B7EA
-  - Navy: #000080
-  - Black: #000000
-- **Zemin**: Koyu füme tonu
-
-## Bölümler
-
-### 1. Üst Bar
-```html
 <div class="top-bar">
   <span class="site-title">AVUKAT NURAL KILIÇ</span>
   <div class="language-options">
