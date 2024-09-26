@@ -70,6 +70,28 @@
     font-size: 10px; /* Sütunlardaki yazıları 10px yapar */
 }
 
+/* Müracaat Bölümü */
+.application {
+    /* Var olan stiller */
+}
+
+.contact-info h2 {
+    /* Var olan stiller */
+}
+
+.contact-text {
+    font-size: 10px; /* İlk iki cümlenin boyutu 10px */
+    color: #000080; /* Metin rengi, isteğe bağlı */
+}
+
+/* Diğer stiller */
+.calendar h3 {
+    /* Var olan stiller */
+}
+
+.calendar p {
+    /* Var olan stiller */
+}
 
 /* Footer CSS */
 .footer {
