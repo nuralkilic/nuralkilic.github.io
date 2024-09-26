@@ -83,6 +83,36 @@
 .application {
     /* Var olan stiller */
 }
+
+/* Diğer Çalışma Alanlarımız Bölümü */
+.gallery {
+    background-color: #C3B7EA;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Başlık için stil */
+.gallery h2 {
+    color: #000080;
+    font-size: 14px; /* Başlık boyutu */
+}
+
+/* Galeri düzeni */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sütunlu grid */
+    gap: 20px; /* Görseller arasındaki boşluk */
+}
+
+/* Görsellerin boyutu */
+.gallery-container img {
+    width: 100%; /* Görsellerin kapsayıcıya göre genişliği */
+    height: auto; /* Oranı korur */
+    max-height: 150px; /* İsteğe bağlı, maksimum yükseklik ayarı */
+    object-fit: cover; /* Görsellerin kapsayıcıya uymasını sağlar */
+    border-radius: 10px; /* Kenarları yuvarlatır */
+}
+
 /* MÜRÂCAAT başlığı için stil */
 .application h2 {
     text-transform: uppercase; /* Büyük harf yapar */
