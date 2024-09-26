@@ -61,11 +61,12 @@
 }
 
 .specialty-item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 120px; /* Görsellerin genişliğini artırır */
+    height: 120px; /* Görsellerin yüksekliğini artırır */
+    border-radius: 50%; /* Görselleri daire şeklinde yapar */
     margin-bottom: 10px;
 }
+
 
 /* Sütunlardaki yazıların boyutu */
 .specialty-item p {
