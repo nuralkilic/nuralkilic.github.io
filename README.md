@@ -60,38 +60,25 @@
             width: 45%;
         }
 
-        /* İHTİSAS ALANLARIMIZ bölümü */
-.specialties {
-    background-color: #C3B7EA;
-    padding: 50px;
-    text-align: center;
-}
+       <!-- İhtisas Alanlarımız Bölümü -->
+<section class="specialties">
+    <h2>İ H T İ S A S   A L A N L A R I M I Z</h2>
+    <div class="specialties-container">
+        <div class="specialty-item">
+            <img src="images/specialty1.jpg" alt="İhtisas Alanı 1">
+            <p>İdarî faaliyetler sebebiyle maruz kaldığınız haksızlıkların durdurulması, iptali ve bu bağlamda uğradığınız zararların tazmini için gerekli işleri, idârî başvurularınızın ilgili İdâre'ye (kamu kurum ve kuruluşları) yöneltilmesinden, iptal davalarına ve tam yargı davalarına kadar titizlikle yürütüyoruz.</p>
+        </div>
+        <div class="specialty-item">
+            <img src="images/specialty2.jpg" alt="İhtisas Alanı 2">
+            <p>Anayasa Mahkemesi, Kamu Denetçiliği Kurumu, TİHEK ve Avrupa İnsan Hakları Mahkemesi başta olmak üzere uluslararası yargı organları önünde temel hak ve özgürlüklerinize ilişkin bireysel başvurularınızı her gün daha çok ihtisaslaşarak takip ediyoruz.</p>
+        </div>
+        <div class="specialty-item">
+            <img src="images/specialty3.jpg" alt="İhtisas Alanı 3">
+            <p>Uyuşmazlıkların en kıymetli ve geri getirilemez eşyadan olan vakit başta olmak üzere nelere mâlolabileceğinin şuuruyla, haksızlar ve/veya zarar doğmadan yahut derinleşmeden önce "önleme" ilkesinin uygulanmasına çabalıyor, bunun için vazedilmiş hukukî prosedürleri işletiyoruz.</p>
+        </div>
+    </div>
+</section>
 
-.specialties h2 {
-    color: #000080;
-    font-size: var(--font-size-medium); /* Font boyutunu küçült */
-}
-
-.specialties-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.specialty-item {
-    text-align: center;
-}
-
-.specialty-item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.specialty-item p {
-    font-size: var(--font-size-xsmall); /* Font boyutunu küçült */
-}
 
         /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
         .gallery {
