@@ -1,1 +1,31 @@
+/* Footer CSS */
+.footer {
+    background-color: #000080; /* Arka plan rengi */
+    color: #fff; /* Metin rengi */
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media .social-icon {
+    color: #fff; /* İkon rengi */
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px; /* İkon boyutu */
+}
+
+.social-media .social-icon:hover {
+    color: #c3b7ea; /* Hover efekti rengi */
+}
+
+.contact-details {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: var(--font-size-small);
+}
 
