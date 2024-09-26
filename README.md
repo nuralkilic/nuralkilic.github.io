@@ -294,48 +294,30 @@
         </div>
     </section>
 
-   <!-- Müracaat Bölümü -->
-<section class="application">
-    <div class="contact-info">
-        <h2>Müracaat</h2>
-        <p>Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
+   .application {
+    background-color: #C3B7EA;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
-        <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
-        <p><strong>Av. Nural Kılıç</strong></p>
-        <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
-        <p><strong>E-posta:</strong> nuralkilic@adana.av.tr</p>
-        <div class="calendar">
-            <h3>Mesai Saatleri:</h3>
-            <p>Pazartesi-Salı: 07:00-19:00</p>
-            <p>Çarşamba-Perşembe: 07:00-17:00</p>
-            <p>Cuma: 07:00-11:00</p>
-        </div>
-        <button class="show-form-button" onclick="toggleForm()">Randevu Talebi</button>
-        <div class="appointment-form" id="appointmentForm">
-            <h2>Randevu Talebi Formu</h2>
-            <form action="mailto:example@example.com" method="post" enctype="text/plain">
-                <label for="name">Adınız:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">E-posta:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mesaj:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Gönder</button>
-            </form>
-        </div>
-    </div>
-    <div class="map">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.087155019032!2d35.29463181563986!3d37.01617127977621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c4d7c8e62cb0f7%3A0x2f87c4253d8c5a8b!2sToros%20Mah.%2078140%20Sk.%20Kap%C4%B1%20No.:%202/A%20B%C3%BCro%20No.:%20219X%2C%20%C3%87ukurova%2FAdana!5e0!3m2!1str!2str!4v1696344607710!5m2!1str!2str" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-        </iframe>
-    </div>
-</section>
+.contact-info {
+    width: 45%;
+    background-color: #C3B7EA;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.map {
+    width: 45%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
     <!-- Footer -->
     <footer class="footer">
