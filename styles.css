@@ -43,6 +43,13 @@
     text-align: center;
 }
 
+/* İHTİSAS ALANLARIMIZ bölümü */
+.specialties {
+    background-color: #C3B7EA;
+    padding: 50px;
+    text-align: center;
+}
+
 /* İHTİSAS ALANLARIMIZ başlığı için stil */
 .specialties h2 {
     color: #000080;
@@ -66,7 +73,6 @@
     border-radius: 50%; /* Görselleri daire şeklinde yapar */
     margin-bottom: 10px;
 }
-
 
 /* Sütunlardaki yazıların boyutu */
 .specialty-item p {
