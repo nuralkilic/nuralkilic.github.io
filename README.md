@@ -298,7 +298,7 @@
     <section class="application">
         <div class="contact-info">
             <h2>Müracaat</h2>
-            <p>Telefon ve e-posta yoluyla ulaşabilir yahut büromuzda veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
+            <p>Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
 
             <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
             <p><strong>Av. Nural Kılıç</strong></p>
@@ -338,7 +338,7 @@
             <a href="#">Instagram</a>
         </div>
         <div class="contact-details">
-            <p> TOROS MAHALLESİ 78140 SOKAK KAPI NO.: 2/A BÜRO NO.: 219X ÇUKUROVA/ADANA </p>
+            <p> TOROS MAHALLESİ 78140 SOKAK KAPI NO.:2/A BÜRO:219X ÇUKUROVA/ADANA </p>
             <p>Telefon: +90 322 234 37 85 </p>
             <p>E-posta: nuralkilic@adana.av.tr </p>
         </div>
