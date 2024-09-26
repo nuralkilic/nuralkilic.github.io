@@ -1,13 +1,19 @@
-/* Header için */
+/* Header alanı için stil */
 .header {
-    text-align: center;
-    margin-top: 20px;
+    width: 100%;
+    height: auto; /* Görselin yüksekliği, en-boy oranına bağlı olarak otomatik ayarlanacak */
+    display: flex;
+    justify-content: center; /* Görseli yatayda ortalayacak */
+    align-items: center; /* Görseli dikeyde ortalayacak */
+    background-color: #f5f5f5; /* Arka plan rengi, isteğe bağlı */
 }
 
 .header img {
-    width: 100%;
-    height: auto; /* Görselin oranlarını korur */
-    max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
+    max-width: 100%; /* Görselin genişliği, ekran boyutuna göre esneyecek */
+    height: auto; /* En-boy oranı korunacak */
+    object-fit: cover; /* Görsel, alanı düzgün şekilde dolduracak */
+}
+
 }
 
 /* HAKKIMIZDA bölümü */
