@@ -89,30 +89,21 @@
             margin-bottom: 10px;
         }
 
-        /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
-        .gallery {
-            background-color: #C3B7EA;
-            padding: 50px;
-            text-align: center;
-        }
-
-        .gallery h2 {
-            color: #000080;
-            font-size: var(--font-size-large);
-        }
-
-        .gallery-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-
-        .gallery-container img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
+     <!-- Diğer Çalışma Alanlarımız Bölümü -->
+<section class="gallery">
+    <h2>Diğer Çalışma Alanlarımız</h2>
+    <div class="gallery-container">
+        <img src="./images/1bilisim.png" alt="Çalışma Alanı 1">
+        <img src="./images/2imar.png" alt="Çalışma Alanı 2">
+        <img src="./images/3is.png" alt="Çalışma Alanı 3">
+        <img src="./images/4kamuihale.png" alt="Çalışma Alanı 4">
+        <img src="./images/5ekonomiceza.png" alt="Çalışma Alanı 5">
+        <img src="./images/6cocuk.png" alt="Çalışma Alanı 6">
+        <img src="./images/7gayrimenkul.png" alt="Çalışma Alanı 7">
+        <img src="./images/8tazminat.png" alt="Çalışma Alanı 8">
+        <img src="./images/9saglik.png" alt="Çalışma Alanı 9">
+    </div>
+</section>
 
         /* MÜRÂCAAT Bölümü */
         .application {
