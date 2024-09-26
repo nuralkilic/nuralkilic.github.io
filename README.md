@@ -341,7 +341,7 @@
         <a href="https://linkedin.com/in/nuralkılıç" target="_blank">LinkedIn: linkedin.com/in/nuralkılıç</a>
     </div>
     <div class="contact-details">
-        <p>Toros Mahallesi 78140 Sokak Kapı No.:2/A Büro:219X Çukurova/ADANA</p>
+        <p>TOROS MAHALLESİ 78140 SOKAK KAPI NO.:2/A BÜRO:219X ÇUKUROVA/ADANA</p>
         <p>Telefon: +90 322 234 37 85</p>
         <p>E-posta: nuralkilic@adana.av.tr</p>
     </div>
