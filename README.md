@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,12 +7,13 @@
     <title>Avukat Nural Kılıç</title>
     <style>
         :root {
-            --font-size-large: 14px;
-            --font-size-medium: 12px;
-            --font-size-small: 10px;
-            --font-size-xsmall: 8px;
-            --font-size-xxsmall: 7px;
+            --font-size-large: 24px;
+            --font-size-medium: 18px;
+            --font-size-small: 16px;
+            --font-size-xsmall: 14px;
+            --font-size-xxsmall: 12px;
         }
+
         body {
             margin: 0;
             font-family: 'Garamond', 'Times New Roman', serif; /* Garamond benzeri fontları kullan */
@@ -40,7 +43,7 @@
             max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
         }
 
-        /* HAKKIMIZDA bölümü */
+        /* Hakkımızda bölümü */
         .about {
             background-color: #C3B7EA;
             padding: 50px;
@@ -54,46 +57,41 @@
         }
 
         .about-text {
-
             color: #000080;
             font-size: var(--font-size-medium);
             width: 45%;
         }
 
-        /* İHTİSAS ALANLARIMIZ bölümü */
-.specialties {
-    background-color: #C3B7EA;
-    padding: 50px;
-    text-align: center;
-}
+        /* İhtisas Alanlarımız bölümü */
+        .specialties {
+            background-color: #C3B7EA;
+            padding: 50px;
+            text-align: center;
+        }
 
-.specialties h2 {
-    color: #000080;
-    font-size: var(--font-size-small); /* Font boyutunu küçült */
-}
+        .specialties h2 {
+            color: #000080;
+            font-size: var(--font-size-large);
+        }
 
-.specialties-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
+        .specialties-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
 
-.specialty-item {
-    text-align: center;
-}
+        .specialty-item {
+            text-align: center;
+        }
 
-.specialty-item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
+        .specialty-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
 
-.specialty-item p {
-    font-size: var(--font-size-xsmall); /* Font boyutunu küçült */
-}
-
-        /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
+        /* Diğer Çalışma Alanlarımız bölümü */
         .gallery {
             background-color: #C3B7EA;
             padding: 50px;
@@ -118,7 +116,7 @@
             border-radius: 10px;
         }
 
-        /* MÜRÂCAAT Bölümü */
+        /* Müracaat Bölümü */
         .application {
             background-color: #C3B7EA;
             padding: 50px;
@@ -170,7 +168,7 @@
         }
 
         .contact-info .calendar p {
-            font-size: var(--font-size-medium);
+            font-size: var(--font-size-xsmall);
             margin: 5px 0;
         }
 
@@ -258,8 +256,8 @@
         <img src="images/about.jpg" alt="Hakkımızda Görseli">
         <div class="about-text">
             <h2>Hakkımızda</h2>
-            <p>Avukat Nural Kılıç ilk ve orta öğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerinden biridir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
-            
+            <p>Bizimle iletişime geçmek ve daha fazla bilgi almak için lütfen bizimle iletişime geçin.</p>
+            <p>Yılların tecrübesi ve profesyonelliği ile sizlere en iyi hizmeti sunmayı hedefliyoruz.</p>
         </div>
     </section>
 
@@ -269,15 +267,15 @@
         <div class="specialties-container">
             <div class="specialty-item">
                 <img src="images/specialty1.jpg" alt="İhtisas Alanı 1">
-                <p>İdarî faaliyetler sebebiyle maruz kaldığınız haksızlıkların durdurulması, iptali ve bu bağlamda uğradığınız zararların tazmini için gerekli işleri, idârî başvurularınızın ilgili İdâre'ye (kamu kurum ve kuruluşları) yöneltilmesinden, iptal davalarına ve tam yargı davalarına kadar titizlikle yürütüyoruz.</p>
+                <p>Alan 1 Açıklaması</p>
             </div>
             <div class="specialty-item">
                 <img src="images/specialty2.jpg" alt="İhtisas Alanı 2">
-                <p>Anayasa Mahkemesi, Kamu Denetçiliği Kurumu, TİHEK ve Avrupa İnsan Hakları Mahkemesi başta olmak üzere uluslararası yargı organları önünde temel hak ve özgürlüklerinize ilişkin bireysel başvurularınızı her gün daha çok ihtisaslaşarak takip ediyoruz.</p>
+                <p>Alan 2 Açıklaması</p>
             </div>
             <div class="specialty-item">
                 <img src="images/specialty3.jpg" alt="İhtisas Alanı 3">
-                <p>Uyuşmazlıkların en kıymetli ve geri getirilemez eşyadan olan vakit başta olmak üzere nelere mâlolabileceğinin şuuruyla, haksızlar ve/veya zarar doğmadan yahut derinleşmeden önce "önleme" ilkesinin uygulanmasına çabalıyor, bunun için vazedilmiş hukukî prosedürleri işletiyoruz.</p>
+                <p>Alan 3 Açıklaması</p>
             </div>
         </div>
     </section>
@@ -303,9 +301,6 @@
         <div class="contact-info">
             <h2>Müracaat</h2>
             <p>Telefon ve e-posta yoluyla ulaşabilir yahut büromuzda veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
-
-
-
             <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
             <p><strong>Av. Nural Kılıç</strong></p>
             <p><strong>Adres:</strong> İstanbul, Türkiye</p>
