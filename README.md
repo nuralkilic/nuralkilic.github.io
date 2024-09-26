@@ -28,11 +28,17 @@
             text-align: left;
         }
 
-     <!-- Header -->
-<header class="header">
-    <img src="images/header.png" alt="Header Görseli">
-</header>
+        /* Header için */
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
 
+        .header img {
+            width: 100%;
+            height: auto; /* Görselin oranlarını korur */
+            max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
+        }
 
         /* HAKKIMIZDA bölümü */
         .about {
