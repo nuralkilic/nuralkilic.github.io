@@ -302,8 +302,8 @@
 
             <p>Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
             <p><strong>Av. Nural Kılıç</strong></p>
-            <p><strong>Adres:</strong> İstanbul, Türkiye</p>
-            <p><strong>E-posta:</strong> example@example.com</p>
+            <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA </p>
+            <p><strong>E-posta:</strong> nuralkilic@adana.av.tr </p>
             <div class="calendar">
                 <h3>Mesai Saatleri:</h3>
                 <p>Pazartesi-Salı: 07:00-19:00</p>
