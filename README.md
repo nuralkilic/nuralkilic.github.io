@@ -69,7 +69,7 @@
 
 .specialties h2 {
     color: #000080;
-    font-size: 12px; /* Başlığı 12px yapar */
+    font-size: 10px; /* Başlığı 10px yapar */
     text-transform: uppercase; /* Başlığı büyük harf yapar */
 }
 
