@@ -1,55 +1,364 @@
-/* Header için */
-.header {
-    text-align: center;
-    margin-top: 20px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avukat Nural Kılıç</title>
+    <style>
+        :root {
+            --font-size-large: 14px;
+            --font-size-medium: 12px;
+            --font-size-small: 10px;
+            --font-size-xsmall: 8px;
+            --font-size-xxsmall: 7px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Garamond', 'Times New Roman', serif; /* Garamond benzeri fontları kullan */
+            background-color: #333; /* Füme zemin */
+            color: #000080; /* Metin rengi */
+            font-size: var(--font-size-small); /* Varsayılan yazı boyutu */
+        }
 
-.header img {
-    width: 100%;
-    height: auto; /* Görselin oranlarını korur */
-    max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
-}
-/* Galeri Stilleri */
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap; /* Resimleri yan yana dizmeye çalışır ve taşarsa alt satıra geçer */
-    gap: 10px; /* Resimler arasına boşluk ekler */
-}
+        /* İnce bar ve başlık */
+        .top-bar {
+            background-color: #000;
+            padding: 10px;
+            color: #C3B7EA;
+            font-size: var(--font-size-medium);
+            text-align: left;
+        }
 
-.gallery-container img {
-    max-width: 100%; /* Görsellerin genişliğini kapsayıcıya göre ayarlar */
-    height: auto;    /* Orantılı yükseklik */
-    display: block;  /* Görsellerin altına boşluk bırakmaması için */
-}
+     <!-- Header -->
+<header class="header">
+    <img src="images/header.png" alt="Header Görseli">
+</header>
 
-/* Footer CSS */
-.footer {
-    background-color: #000080; /* Arka plan rengi */
-    color: #fff; /* Metin rengi */
-    padding: 20px;
-    text-align: center;
-}
 
-.social-media {
-    margin-bottom: 10px;
-}
+        /* HAKKIMIZDA bölümü */
+        .about {
+            background-color: #C3B7EA;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
 
-.social-media .social-icon {
-    color: #C3B7EA; /* İkon rengi */
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 24px; /* İkon boyutu */
-}
+        .about img {
+            width: 45%;
+            border-radius: 10px;
+        }
 
-.social-media .social-icon:hover {
-    color: #c3b7ea; /* Hover efekti rengi */
-}
+        .about-text {
 
-.contact-details {
-    margin-bottom: 10px;
-}
+            color: #000080;
+            font-size: var(--font-size-medium);
+            width: 45%;
+        }
 
-.copyright {
-    font-size: var(--font-size-small);
-}
+        /* İHTİSAS ALANLARIMIZ bölümü */
+        .specialties {
+            background-color: #C3B7EA;
+            padding: 50px;
+            text-align: center;
+        }
 
+        .specialties h2 {
+            color: #000080;
+            font-size: var(--font-size-medium);
+        }
+
+        .specialties-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .specialty-item {
+            text-align: center;
+        }
+
+        .specialty-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
+        .gallery {
+            background-color: #C3B7EA;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .gallery h2 {
+            color: #000080;
+            font-size: var(--font-size-large);
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .gallery-container img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* MÜRÂCAAT Bölümü */
+        .application {
+            background-color: #C3B7EA;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .contact-info {
+            width: 45%;
+            background-color: #C3B7EA;
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .contact-info h2 {
+            color: #000080;
+            font-size: var(--font-size-large);
+        }
+
+        .contact-info p {
+            font-size: var(--font-size-small);
+            margin: 10px 0;
+        }
+
+        .contact-info .contact-details {
+            margin: 20px 0;
+        }
+
+        .contact-info .contact-details span {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-info .contact-details span strong {
+            color: #000080;
+        }
+
+        .contact-info .calendar {
+            background-color: #C3B7EA;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .contact-info .calendar h3 {
+            color: #000080;
+            font-size: var(--font-size-medium);
+        }
+
+        .contact-info .calendar p {
+            font-size: var(--font-size-medium);
+            margin: 5px 0;
+        }
+
+        /* Randevu talebi formu */
+        .appointment-form {
+            display: none; /* Form başlangıçta gizli */
+            background-color: #C3B7EA;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        .appointment-form h2 {
+            color: #000080;
+            font-size: var(--font-size-large);
+        }
+
+        .appointment-form input, .appointment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #000080;
+        }
+
+        .appointment-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #000080;
+            color: #C3B7EA;
+            border: none;
+            border-radius: 5px;
+            font-size: var(--font-size-small);
+        }
+
+        .show-form-button {
+            padding: 10px;
+            background-color: #000080;
+            color: #C3B7EA;
+            border: none;
+            border-radius: 5px;
+            font-size: var(--font-size-small);
+            cursor: pointer;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #000;
+            color: #C3B7EA;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer .social-media a {
+            color: #C3B7EA;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer .contact-details p {
+            margin: 5px 0;
+        }
+
+        .footer .copyright {
+            font-size: var(--font-size-xxsmall);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- İnce bar ve başlık -->
+    <div class="top-bar">
+        AVUKAT NURAL KILIÇ
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="images/header.png" alt="Header Görseli">
+    </div>
+
+    <!-- Hakkımızda Bölümü -->
+    <section class="about">
+        <img src="images/hakkımızda.jpg" alt="Hakkımızda Görseli">
+        <div class="about-text">
+            <h2>Hakkımızda</h2>
+            <p>Avukat Nural Kılıç ilk ve ortaöğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerinden biridir. Almanca ve İngilizce bilir. İstanbul Barosu'nda 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye çabalayarak sürdürür.</p>
+            
+        </div>
+    </section>
+
+    <!-- İhtisas Alanlarımız Bölümü -->
+    <section class="specialties">
+        <h2>İhtisas Alanlarımız</h2>
+        <div class="specialties-container">
+            <div class="specialty-item">
+                <img src="idare.png" alt="İhtisas Alanı 1">
+                <p>İdarî faaliyetler sebebiyle maruz kaldığınız haksızlıkların durdurulması, iptali ve bu bağlamda uğradığınız zararların tazmini için gerekli işleri, idârî başvurularınızın ilgili İdâre'ye (kamu kurum ve kuruluşları) yöneltilmesinden, iptal davalarına ve tam yargı davalarına kadar titizlikle yürütüyoruz.</p>
+            </div>
+            <div class="specialty-item">
+                <img src="bireyselbaşvuru.png" alt="İhtisas Alanı 2">
+                <p>Anayasa Mahkemesi, Kamu Denetçiliği Kurumu, TİHEK ve Avrupa İnsan Hakları Mahkemesi başta olmak üzere uluslararası yargı organları önünde temel hak ve özgürlüklerinize ilişkin bireysel başvurularınızı her gün daha çok ihtisaslaşarak takip ediyoruz.</p>
+            </div>
+            <div class="specialty-item">
+                <img src="önleme.png" alt="İhtisas Alanı 3">
+                <p>Uyuşmazlıkların en kıymetli ve geri getirilemez eşyadan olan vakit başta olmak üzere nelere mâlolabileceğinin şuuruyla, haksızlar ve/veya zarar doğmadan yahut derinleşmeden önce "önleme" ilkesinin uygulanmasına çabalıyor, bunun için vazedilmiş hukukî prosedürleri işletiyoruz.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diğer Çalışma Alanlarımız Bölümü -->
+    <section class="gallery">
+        <h2>Diğer Çalışma Alanlarımız</h2>
+        <div class="gallery-container">
+            <img src="images/1bilişim.png" alt="Çalışma Alanı 1">
+            <img src="images/2imar.png" alt="Çalışma Alanı 2">
+            <img src="images/3iş.png" alt="Çalışma Alanı 3">
+            <img src="images/4kamuihale.png" alt="Çalışma Alanı 4">
+            <img src="images/5ekonomiceza.png" alt="Çalışma Alanı 5">
+            <img src="images/6çocuk.png" alt="Çalışma Alanı 6">
+            <img src="images/7gayrimenkul.png" alt="Çalışma Alanı 7">
+            <img src="images/8tazminat.png" alt="Çalışma Alanı 8">
+            <img src="images/9sağlık.png" alt="Çalışma Alanı 9">
+        </div>
+    </section>
+
+  <!-- Müracaat Bölümü -->
+<section class="application">
+    <div class="contact-info">
+        <h2>Müracaat</h2>
+        <p class="contact-text">Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
+        <p class="contact-text">Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
+        <p><strong>Av. Nural Kılıç</strong></p>
+        <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
+        <p><strong>E-posta:</strong> nuralkilic@adana.av.tr</p>
+        <div class="calendar">
+            <h3>Mesai Saatleri:</h3>
+            <p>Pazartesi-Salı: 07:00-19:00</p>
+            <p>Çarşamba-Perşembe: 07:00-17:00</p>
+            <p>Cuma: 07:00-11:00</p>
+        </div>
+        <button class="show-form-button" onclick="toggleForm()">Randevu Talebi</button>
+        <div class="appointment-form" id="appointmentForm">
+            <h2>Randevu Talebi Formu</h2>
+            <form action="mailto:example@example.com" method="post" enctype="text/plain">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </div>
+    <div class="map">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.5227986047635!2d35.297360975007344!3d37.04502295386203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1528895e17a584d9%3A0xca5c5d047e21507c!2sX%20Ofis!5e0!3m2!1str!2str!4v1727352591115!5m2!1str!2str" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+
+
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="social-media">
+        <a href="https://x.com/nuralnun" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkedin.com/in/nuralkılıç" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+    <div class="contact-details">
+        <p>Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
+        <p>Telefon: +90 322 234 37 85</p>
+        <p>E-posta: nuralkilic@adana.av.tr</p>
+    </div>
+    <div class="copyright">
+        TELİF HAKKI © 2024 AVUKAT NURAL KILIÇ - TÜM HAKLARI SAKLIDIR.
+    </div>
+</footer>
+
+
+    <script>
+        function toggleForm() {
+            var form = document.getElementById('appointmentForm');
+            form.style.display = form.style.display === 'none' || form.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>
