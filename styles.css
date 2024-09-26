@@ -1,19 +1,13 @@
-/* Header alanı için stil */
+/* Header için */
 .header {
-    width: 100%;
-    height: auto; /* Görselin yüksekliği, en-boy oranına bağlı olarak otomatik ayarlanacak */
-    display: flex;
-    justify-content: center; /* Görseli yatayda ortalayacak */
-    align-items: center; /* Görseli dikeyde ortalayacak */
-    background-color: #f5f5f5; /* Arka plan rengi, isteğe bağlı */
+    text-align: center;
+    margin-top: 20px;
 }
 
 .header img {
-    max-width: 100%; /* Görselin genişliği, ekran boyutuna göre esneyecek */
-    height: auto; /* En-boy oranı korunacak */
-    object-fit: cover; /* Görsel, alanı düzgün şekilde dolduracak */
-}
-
+    width: 100%;
+    height: auto; /* Görselin oranlarını korur */
+    max-height: 300px; /* İsteğe bağlı, yüksekliği sınırlamak için */
 }
 
 /* HAKKIMIZDA bölümü */
@@ -75,7 +69,7 @@
 
 /* Sütunlardaki yazıların boyutu */
 .specialty-item p {
-    font-size: 10px; /* Sütunlardaki yazıları 10px yapar */
+    font-size: 12px; /* Sütunlardaki yazıları 12px yapar */
 }
 
 /* Müracaat Bölümü */
