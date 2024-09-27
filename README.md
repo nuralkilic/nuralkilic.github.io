@@ -91,30 +91,21 @@
 }
 
 
-        /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
-        .gallery {
-            background-color: #C3B7EA;
-            padding: 50px;
-            text-align: center;
-        }
+       <section class="diger-calisma-alanlarimiz">
+    <h2>DİĞER ÇALIŞMA ALANLARIMIZ</h2>
+    <ul class="calisma-listesi">
+        <li>Bilişim Hukuku</li>
+        <li>İmar Hukuku</li>
+        <li>İş Hukuku</li>
+        <li>Kamu İhale Hukuku</li>
+        <li>Ekonomi Ceza Hukuku</li>
+        <li>Çocuk Hukuku</li>
+        <li>Gayrimenkul Hukuku</li>
+        <li>Tazminat (Sorumluluk) Hukuku</li>
+        <li>Sağlık (Tıp) Hukuku</li>
+    </ul>
+</section>
 
-        .gallery h2 {
-            color: #000080;
-            font-size: var(--font-size-large);
-        }
-
-        .gallery-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-
-        .gallery-container img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
 
         /* MÜRÂCAAT Bölümü */
         .application {
