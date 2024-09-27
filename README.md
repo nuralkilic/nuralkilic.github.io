@@ -267,7 +267,7 @@
         <div class="specialties-container">
             <div class="specialty-item">
                 <img src="idare.png" alt="İhtisas Alanı 1">
-                <p>İdarî faaliyetler sebebiyle maruz kaldığınız haksızlıkların durdurulması, iptali ve bu bağlamda uğradığınız zararların tazmini için gerekli işleri, idârî başvurularınızın ilgili İdâre'ye (kamu kurum ve kuruluşları) yöneltilmesinden, iptal davalarına ve tam yargı davalarına kadar titizlikle yürütüyoruz.</p>
+                <p>İdarî faaliyetler sebebiyle maruz kaldığınız haksızlıkların durdurulması, ilgili eylem ve işlemlerin iptali ve bu bağlamda uğradığınız zararların tazmini için gerekli işleri, idârî başvurularınızın ilgili İdâre'ye (kamu kurum ve kuruluşları) yöneltilmesinden, iptal davalarına ve tam yargı davalarına kadar titizlikle yürütüyoruz.</p>
             </div>
             <div class="specialty-item">
                 <img src="bireyselbaşvuru.png" alt="İhtisas Alanı 2">
