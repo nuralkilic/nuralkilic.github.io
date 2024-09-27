@@ -69,25 +69,7 @@
 
 /* Sütunlardaki yazıların boyutu */
 .specialty-item p {
-    font-size: 10px; /* Yazı boyutunu 10px yapar */
-}
-.diger-calisma-alanlarimiz {
-    background-color: #C3B7EA;
-    text-align: center;
-    padding: 20px;
-}
-
-.diger-calisma-alanlarimiz h2 {
-    color: #000080;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.diger-calisma-alanlarimiz p {
-    color: #000080;
-    font-size: 10px;
-    margin: 5px 0;
+    font-size: 12px; /* Sütunlardaki yazıları 12px yapar */
 }
 
 /* Müracaat Bölümü */
