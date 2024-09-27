@@ -91,30 +91,20 @@
 }
 
 
-        /* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
-        .gallery {
-            background-color: #C3B7EA;
-            padding: 50px;
-            text-align: center;
-        }
-
-        .gallery h2 {
-            color: #000080;
-            font-size: var(--font-size-large);
-        }
-
-        .gallery-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
-
-        .gallery-container img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
+     <section class="diger-calisma-alanlarimiz">
+    <h2>DİĞER ÇALIŞMA ALANLARIMIZ</h2>
+    <div class="gallery">
+        <img src="images/1bilisim.png" alt="Bilişim" />
+        <img src="images/2imar.png" alt="İmar" />
+        <img src="images/3is.png" alt="İş Hukuku" />
+        <img src="images/4kamuihale.png" alt="Kamu İhale" />
+        <img src="images/5ekonomiceza.png" alt="Ekonomik Ceza" />
+        <img src="images/6cocuk.png" alt="Çocuk Hukuku" />
+        <img src="images/7gayrimenkul.png" alt="Gayrimenkul" />
+        <img src="images/8tazminat.png" alt="Tazminat" />
+        <img src="images/9saglik.png" alt="Sağlık Hukuku" />
+    </div>
+</section>
 
         /* MÜRÂCAAT Bölümü */
         .application {
