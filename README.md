@@ -90,22 +90,18 @@
     margin-bottom: 10px;
 }
 
-
-       <section class="diger-calisma-alanlarimiz">
+      <section class="diger-calisma-alanlarimiz">
     <h2>DİĞER ÇALIŞMA ALANLARIMIZ</h2>
-    <ul class="calisma-listesi">
-        <li>Bilişim Hukuku</li>
-        <li>İmar Hukuku</li>
-        <li>İş Hukuku</li>
-        <li>Kamu İhale Hukuku</li>
-        <li>Ekonomi Ceza Hukuku</li>
-        <li>Çocuk Hukuku</li>
-        <li>Gayrimenkul Hukuku</li>
-        <li>Tazminat (Sorumluluk) Hukuku</li>
-        <li>Sağlık (Tıp) Hukuku</li>
-    </ul>
+    <p>Bilişim Hukuku</p>
+    <p>İmar Hukuku</p>
+    <p>İş Hukuku</p>
+    <p>Kamu İhale Hukuku</p>
+    <p>Ekonomi Ceza Hukuku</p>
+    <p>Çocuk Hukuku</p>
+    <p>Gayrimenkul Hukuku</p>
+    <p>Tazminat (Sorumluluk) Hukuku</p>
+    <p>Sağlık (Tıp) Hukuku</p>
 </section>
-
 
         /* MÜRÂCAAT Bölümü */
         .application {
