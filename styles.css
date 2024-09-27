@@ -71,6 +71,32 @@
 .specialty-item p {
     font-size: 10px; /* Yazı boyutunu 10px yapar */
 }
+.diger-calisma-alanlarimiz {
+    background-color: #C3B7EA;
+    text-align: center;
+    padding: 20px;
+}
+
+.diger-calisma-alanlarimiz h2 {
+    color: #000080;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    max-width: 300px;
+}
 
 /* Müracaat Bölümü */
 .application {
