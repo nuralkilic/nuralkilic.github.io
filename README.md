@@ -248,7 +248,7 @@
 
     <!-- Header -->
     <header>
-    <img src="images/banner.png" alt="Header Görseli">
+    <img src="images/wbanner.png" alt="Header Görseli">
 </header>
 
 
