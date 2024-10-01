@@ -1,13 +1,26 @@
 /* Header için */
 .header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px; /* Header ile üst içerik arasında boşluk bırakır */
 }
 
 .header img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Görsel ekranın genişliğini kaplayacak */
+    height: auto; /* Görselin oranını koruyarak yüksekliği otomatik ayarlar */
+    max-height: 600px; /* Maksimum 600px yüksekliğinde sınırlar (masaüstü) */
 }
+
+/* Mobil cihazlar için */
+@media (max-width: 768px) {
+    .header img {
+        max-height: 400px; /* Mobil cihazlarda en fazla 400px yüksekliğinde olacak */
+    }
+}
+
+@media (max-width: 480px) {
+    .header img {
+        max-height: 300px; /* Daha küçük mobil cihazlarda maksimum yüksekliği 
+
 
 /* HAKKIMIZDA bölümü */
 .about {
