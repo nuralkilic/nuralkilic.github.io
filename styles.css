@@ -19,8 +19,8 @@
 
 @media (max-width: 480px) {
     .header img {
-        max-height: 300px; /* Daha küçük mobil cihazlarda maksimum yüksekliği 
-
+        max-height: 300px; /* Daha küçük mobil cihazlarda maksimum yüksekliği */
+    }
 
 /* HAKKIMIZDA bölümü */
 .about {
