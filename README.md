@@ -1,4 +1,5 @@
 <head>
+    <link rel="stylesheet" href="styles.css"> <!-- Dosya adı ve yolu doğru olmalı -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,6 +19,7 @@
             color: #000080; /* Metin rengi */
             font-size: var(--font-size-small); /* Varsayılan yazı boyutu */
         }
+
 
         /* İnce bar ve başlık */
         .top-bar {
