@@ -83,25 +83,6 @@
 .specialty-item p {
     font-size: 10px; /* Sütunlardaki yazıları 10px yapar */
 }
-/* DİĞER ÇALIŞMA ALANLARIMIZ bölümü */
-.calisma-alani {
-    background-color: #C3B7EA;
-    padding: 50px;
-    text-align: center;
-}
-
-.calisma-alani h2 {
-    color: #000080;
-    font-size: var(--font-size-large);
-}
-
-.calisma-gorsel {
-    width: 100%;
-    max-width: 1200px; /* Görselin maksimum genişliği */
-    height: auto; /* Yüksekliği otomatik ayarla */
-    border-radius: 10px;
-    object-fit: cover;
-}
 
 /* Müracaat Bölümü */
 .application {
