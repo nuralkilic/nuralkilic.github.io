@@ -247,9 +247,10 @@
     </div>
 
     <!-- Header -->
-    <div class="header">
-        <img src="images/header.png" alt="Header Görseli">
-    </div>
+    <header>
+    <img src="images/banner.png" alt="Header Görseli">
+</header>
+
 
     <!-- Hakkımızda Bölümü -->
     <section class="about">
