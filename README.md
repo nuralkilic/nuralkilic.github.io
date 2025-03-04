@@ -307,7 +307,7 @@
         <p class="contact-text">Telefon ve e-posta yoluyla ulaşabilir yahut yazıhanemizde veya çevrimiçi yollarla yüz yüze görüşebilirsiniz.</p>
         <p class="contact-text">Mesai saatlerimiz aşağıdaki gibidir. Vakti uymayacak danışanlarımız ve müvekkillerimiz ortak müsait vaktin tayini için talepte bittabi bulunabilirler.</p>
         <p><strong>Av. Nural Kılıç</strong></p>
-        <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 219X Çukurova/ADANA</p>
+        <p><strong>Adres:</strong> Toros Mahallesi 78140 Sokak Kapı No.: 2/A Büro No.: 223X Çukurova/ADANA</p>
         <p><strong>E-posta:</strong> av.nuralkilic@gmail.com </p>
         <p><strong>E-posta:</strong> info@nuralkilic.av.tr</p>
 
@@ -352,7 +352,7 @@
         <a href="https://linkedin.com/in/nuralkılıç" target="_blank">LinkedIn: linkedin.com/in/nuralkılıç</a>
     </div>
     <div class="contact-details">
-        <p>Toros Mahallesi 78140 Sokak Kapı No.:2/A Büro:219X Çukurova/ADANA</p>
+        <p>Toros Mahallesi 78140 Sokak Kapı No.:2/A Büro:223X Çukurova/ADANA</p>
         <p>E-posta: info@nuralkilic.av.tr</p>
         <p>E-posta: av.nuralkilic@gmail.com</p>
 
