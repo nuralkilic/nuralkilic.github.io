@@ -259,7 +259,7 @@
         <img src="images/hakkımızda.jpg" alt="Hakkımızda Görseli">
         <div class="about-text">
             <h2>Hakkımızda</h2>
-            <p>Avukat Nural Kılıç ilk ve orta öğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programı'nın tez aşamasındaki öğrencilerindendir. Almanca ve İngilizce bilir. İstanbul Barosu'nda ilk 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye gayret ederek sürdürür.</p>
+            <p>Avukat Nural Kılıç ilk ve orta öğrenimini Adana'da görmüş, İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olmuştur. Yasal stajını tamamlayıp avukatlık ruhsatnamesini alarak kıdemli meslektaşlarının hukuk bürolarında tecrübe kazandıktan sonra vekillik mesleğini kendi namına yapmaya başlamıştır. Mesleğinin ilk yıllarından itibaren hak odaklı çalışmalarda da yer almaya çabalayan Kılıç, gerek Baro bünyesinde, gerek meslekî temsiliyetle kamu kurum ve kuruluşları, sivil toplum örgütleri ve özel hukuk kişileri ile bir arada, birçok çalışmada bulunmuştur. Halihazırda Türk Alman Üniversitesi Sosyal Bilimler Enstitüsü'nde Kamu Hukuku Yüksek Lisans Programından Kadına Şiddet ve Ev İçi Şiddeti Önleme İçin Etkili Başvuru Hakkı başlıklı tezini tamamlayarak mezun olmuştur. Almanca ve İngilizce bilir. İstanbul Barosu'nda ilk 5 yıllık kıdemini tamamladıktan sonra, 7255 sicil numarasıyla naklolduğu Adana Barosu'nda, mesleğini, benimsediği değerlerden taviz vermemeye ve her gün kendini geliştirmeye gayret ederek sürdürür.</p>
             
         </div>
     </section>
@@ -309,7 +309,7 @@
         <p><strong>Av. Nural Kılıç</strong></p>
         <p><strong>Adres:</strong> Güzelyalı Mahallesi 81196 Sokak No.:4 Zemin Kat Daire:1 Çukurova/ADANA</p>
         <p><strong>E-posta:</strong> av.nuralkilic@gmail.com </p>
-        <p><strong>E-posta:</strong> info@nuralkilic.av.tr</p>
+        <p><strong>E-posta:</strong> avukat@nuralkilic.av.tr</p>
 
         <div class="calendar">
             <h3>Mesai Saatleri:</h3>
@@ -352,8 +352,8 @@
         <a href="https://linkedin.com/in/nuralkılıç" target="_blank">LinkedIn: linkedin.com/in/nuralkılıç</a>
     </div>
     <div class="contact-details">
-        <p>Toros Mahallesi 78140 Sokak Kapı No.:2/A Büro:223X Çukurova/ADANA</p>
-        <p>E-posta: info@nuralkilic.av.tr</p>
+        <p>Güzelyalı Mahallesi 81196 Sokak Kapı No.:4 Zemin Kat Daire:1 Çukurova/ADANA</p>
+        <p>E-posta: avukat@nuralkilic.av.tr</p>
         <p>E-posta: av.nuralkilic@gmail.com</p>
 
 
