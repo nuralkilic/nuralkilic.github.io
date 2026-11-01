@@ -48,3 +48,5 @@ address{font-style:normal}
 .foot p{margin:.25rem 0;max-width:50rem}
 .foot a{color:#fff}
 @media (max-width:860px){.side{position:static;width:auto;border:0;border-bottom:1px solid var(--line);padding:1.25rem 1.5rem}.brand{width:12rem;margin-bottom:1rem}.side nav a{display:inline-block;margin-right:1.25rem;border:0}.side .small{display:none}.main,.foot{margin-left:0}.hero{min-height:75vh}dl div{grid-template-columns:1fr;gap:0}.areas{columns:1}}
+.sec.lila,.lila h2,.lila dd,.lila dd a,.lila dd span{color:#000080}
+.lila dt{color:#2a2a8a}
